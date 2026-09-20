@@ -1,31 +1,37 @@
 # School Management System - MySQL Mini Project
 
-** Introduction
-The School Management System is a database project developed using MySQL.
-It is designed to manage and organize school-related information efficiently.
+# Project Overview:
+The School Management System is a database-driven application designed to manage student records, subjects, exams, and performance reports. It eliminates manual record-keeping inefficiencies by providing a centralized platform for storing and retrieving academic data.
 
-** Objectives
-- Manage student information
-- Manage Subject information
-- Store exam and subject details
-- Maintain student marks and records
-- Retrieve information using SQL queries
+# Features:
+- Student registration and profile management
+- Subject and exam scheduling
+- Marks entry and performance tracking
+- Query outputs for top performers, averages, and failures
+- Centralized database with secure access
 
-** Technologies Used
-- MySQL Workbench
+# Tech Stack:
+- Frontend: HTML, CSS, JavaScript (optional for UI)
+- Backend: Python / PHP (depending on implementation)
+- Database: MySQL
+- Tools: MySQL Workbench, VS Code
 
-** Features
-- Student management
-- Subject management
-- Exam management
-- Marks management
-- Database queries and reports
-
-** Database
+# API / Database Notes:
+# Tables:
+- Students (ID, Name, Class, Contact)
+- Subjects (SubjectID, Name)
+- Exams (ExamID, Date, SubjectID)
+- Marks (StudentID, ExamID, Marks)
+# Relationships:
+- Student ↔ Subject (many-to-many)
+- Exam ↔ Marks (one-to-many)
+--> Queries include joins and aggregate functions for performance analysis.
+  
+# Database
 The project uses MySQL as the database management system.
 
-** Author
+# Author
 Roopasri Ummadisetty
 
-** Document URL
+# Document URL:
 https://drive.google.com/file/d/1dTlUIbpWXTRmBlNURUhDxwNE0r_TgsWI/view?usp=sharing
